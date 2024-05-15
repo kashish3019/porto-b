@@ -1,0 +1,221 @@
+.header2{
+    display: none;
+}
+.LOGO2{
+    display: none;
+}
+.Search{
+    display: none;
+}
+.service2{
+    display: none;
+}
+.sliderbar{
+    display: none;
+}
+.Column2{
+    display: none;
+}
+@media (max-width: 1024px) 
+{
+    .Nav li a{
+        padding-right: 10px;
+    }
+    .Input{
+        width: 253px;
+    }
+    .call{
+        padding-left: 10px;
+    }
+    .sub input[type="email"]{
+        padding: 5px 3px !important;
+    }
+    .service .p-3{
+        padding: 5px!important;
+    }
+}
+@media (max-width:768px){
+    .header1{
+        display: none;
+    }
+    .header2{
+        display: block;
+    }
+    .LOGO{
+        display: none;
+    }
+    .LOGO2{
+        display: block;
+    }
+    .Search{
+        display: block;
+    }
+    .service{
+        display: none;
+    }
+    .service2{
+        display: block;
+    }
+    .Column{
+        display: none;
+    }
+    .custom-col-9{
+        width: 100%;
+    }
+    .sliderbar{
+        display: block;
+        position: fixed;
+        top: 30%;
+        background-color: #ffff;
+        left: 0;
+        z-index: 10;
+        cursor: pointer;
+    }
+    .popup {
+        width: 600px;
+    }
+    .slider .slider-text h4{
+        font-size: 15px !important;
+        padding-bottom: 5px !important;
+        margin-bottom: 0px !important;
+    }
+    .slider .slider-text .d-flex h4{
+        padding-right: 5px !important;
+    }
+    .slider .slider-text b {
+        padding: 0px 2px;
+        padding-top: 4px;
+        height: 30px;
+    }
+    .slider .slider-text a,
+    .slider2 .slider-text a,
+    .slider3 .slider-text a{
+        padding:10px 20px !important;
+    }
+}
+@media (max-width: 576px) {
+    .text-sm-smaller {
+        font-size: 10px !important; 
+    }
+}
+@media(max-width:426px){
+    .welcome{
+        display: none;
+    }
+    .custom-col-3{
+        width: 100% !important;
+        margin-bottom: 15px !important;
+    }
+    .Search input {
+        width: 89%;
+    }
+    .slider .slider-text{
+        padding-left: 20px !important;
+    }
+    .slider .slider-text h4{
+        font-size: 12px !important;
+    }
+    .slider .slider-text h2 {
+        font-size: 33px !important;
+    }
+    .slider .slider-text .d-flex h3{
+        margin-top: -10px;
+    }
+    .slider .slider-text .d-flex h4{
+        font-size: 8px !important;
+        padding-right: 3px !important;
+    }
+    .slider .slider-text .d-flex b{
+        font-size: 13px !important;
+        margin-right: 3px !important;
+        height: 26px !important;
+    }
+    .slider .slider-text .d-flex a{
+        font-size: 10px !important;
+        padding: 10px 20px !important;
+    }
+    .slider2 .slider-text{
+        padding-left: 20px !important;
+    }
+    .slider2 .slider-text h4{
+        font-size: 10px !important;
+        padding-right: 3px !important;
+    }
+    .slider2 .slider-text h2{
+        font-size: 30px !important;
+    }
+    .slider2 .slider-text .d-flex h4{
+        font-size: 8px !important;
+        padding-right: 10px !important;
+    }
+    .slider2 .slider-text .d-flex a{
+        font-size: 10px !important;
+        padding: 10px 20px !important;
+    }
+    .slider2 .slider-text .d-flex b{
+        font-size: 15px !important;
+        margin-right: 10px !important;
+    }
+    .slider3 .slider-text{
+        padding-left: 20px !important;
+    }
+    .slider3 .slider-text h2{
+        font-size: 30px !important;
+    }
+    .slider3 .slider-text .d-flex h4{
+        font-size: 8px !important;
+        padding-right: 10px !important;
+    }
+    .slider3 .slider-text .d-flex a{
+        font-size: 10px !important;
+        padding: 10px 20px !important;
+    }
+    .slider3 .slider-text .d-flex b{
+        font-size: 15px !important;
+        margin-right: 10px !important;
+    }
+    .feture-slide .swiper-pagination{
+        left: 80% !important;
+    }
+    .feture-slide .swiper-pagination {
+        width: 20% !important;
+    }
+    .product-detail h3{
+        font-size: 17px;
+        margin-bottom: 0;
+    padding-top: 15px;
+    }
+    .colour .MW{
+        font-size: 8px !important;
+        margin:0px !important;
+    }
+    .colour i{
+        font-size: 15px;
+    }
+    .popup {
+        width: 350px;
+        background-color: #ffff;
+        background-image: none;
+    }
+    .popup-content h2{
+        font-size: 18px !important;
+    }
+    .popup-content p{
+        font-size: 14px !important;
+    }
+    .popup .w-60{
+        width: 100%;
+    }
+    .popup-content img {
+        width: 35%;
+    }
+    .popup-content input[type="email"]{
+        width: 200px;
+    }
+    .popup-close {
+        top: -4%;
+    }
+    .footer{
+        padding-bottom: 10px !important;
+    }
+}
